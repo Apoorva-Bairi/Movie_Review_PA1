@@ -1,4 +1,3 @@
-// src/components/SearchBar.tsx
 export default function SearchBar({ onSearch }: any) {
   return (
     <input

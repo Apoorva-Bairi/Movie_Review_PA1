@@ -1,20 +1,3 @@
-// import { useNavigate } from "react-router-dom";
-// import StarRating from "./StarRating";
-
-// export default function MovieCard({ movie }: any) {
-//   const nav = useNavigate();
-
-//   return (
-//     <div onClick={() => nav(`/movie/${movie.imdbID}`)} className="w-40 cursor-pointer">
-//       <img src={movie.Poster} className="rounded" />
-//       <h2>{movie.Title}</h2>
-
-//       <StarRating movieId={movie.imdbID} />
-//     </div>
-//   );
-// }
-// src/components/MovieCard.tsx
-
 import { useNavigate } from "react-router-dom";
 import StarRating from "./StarRating";
 import { useAppSelector } from "../app/hooks";
